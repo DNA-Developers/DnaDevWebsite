@@ -57,6 +57,7 @@ textarea {
     color: #ffffff;
     margin-left: .5rem;
     border: none;
+    outline: none
 }
 
 #submitBut:hover{

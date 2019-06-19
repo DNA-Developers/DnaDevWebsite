@@ -53,10 +53,5 @@ export class NavbarComponent implements OnInit, OnChanges {
     }
   }
 
-  height(){
-    console.log(this.screenWidth)
-  }
-
-
 
 }
