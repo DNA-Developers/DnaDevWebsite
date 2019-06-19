@@ -8,6 +8,7 @@ import { Component, OnInit, HostListener, OnChanges } from '@angular/core';
 export class NavbarComponent implements OnInit, OnChanges {
   photo = '../../../assets/cropped-MasterLogo.png';
   menu = '../../../assets/menu_enhanced.svg'
+  close = '../../../assets/closeButton.svg'
   screenHeight= window.innerHeight;
   screenWidth = window.innerWidth;
   show = true;

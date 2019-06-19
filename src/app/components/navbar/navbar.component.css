@@ -3,7 +3,7 @@
 }
 
 #container {
-    height: 13vh;
+   position: relative;
     background:rgba(0, 0, 0, 0.5);
 }
 
@@ -35,9 +35,34 @@ i {
 
 #menu {
     width: 30px;
-    color: white !important;
+    color: white;
+}
+
+#close {
+    width: 25px;
+    color: white;
 }
 
 a:hover{
     cursor: pointer;
+}
+
+#dropdown{
+    position: absolute;
+    margin-top: 4.7rem;
+    width: 100vw;
+    background:rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    top:0;
+    left: 0;
+    z-index: 10;
+}
+
+#items{
+    margin-top: 1rem;
+
+}
+
+hr{
+    background: #ffffff
 }
