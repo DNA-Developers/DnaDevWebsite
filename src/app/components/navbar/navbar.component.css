@@ -10,7 +10,10 @@
 
 #logo {
     width: 120px;
+    outline: none
 }
+
+
 
 .container {
     height: 100%;

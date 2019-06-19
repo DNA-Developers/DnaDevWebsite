@@ -1,11 +1,13 @@
 <div id="container">
   <div class="container">
     <div id="left">
-      <img id="logo" [src]='photo' alt="logo">
+      <a>
+      <img  routerLink="" id="logo" [src]='photo' alt="logo">
+    </a>
     </div>
     <div id="right">
       <div *ngIf="hide(); else nav">
-        <a routerLink=""(click)="height()">Home</a>
+        <a routerLink="" (click)="height()">Home</a>
         <a routerLink="about">About</a>
         <a routerLink="contact">Contact</a>
       </div>
