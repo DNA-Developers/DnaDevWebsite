@@ -20,7 +20,6 @@ export class NavbarComponent implements OnInit, OnChanges {
     this.screenWidth = window.innerWidth;
   }
   constructor() {
-    console.log(this.screenWidth)
   }
 
   ngOnInit() {
