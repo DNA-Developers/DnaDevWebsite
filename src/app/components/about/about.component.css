@@ -1,5 +1,5 @@
 .showcase {
-    height: 30rem !important;
+    height: 40rem !important;
 }
 .showcase-top {
     background-image: url('/assets/mountain.jpg');
@@ -12,7 +12,7 @@
     font-family: 'Raleway', sans-serif;
     color: white;
     text-align: center;
-    padding-top: 14rem;
+    padding-top: 19rem;
     font-size: 72px;
     text-shadow: 2px 2px 5px blue;
 }
@@ -43,9 +43,6 @@
     margin-left: 1rem;
 }
 @media(max-width: 790px) {
-    .showcase {
-        height: 85vh;
-    }
     .main {
         display: flex;
         align-items: center;
