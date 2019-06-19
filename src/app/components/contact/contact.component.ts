@@ -21,7 +21,18 @@ export class ContactComponent implements OnInit {
    
   }
   onSubmit(){
-
+    this.myForm.reset();
   }
-
+  get name() {
+    return this.myForm.get('name');
+  }
+  get phone() {
+   return this.myForm.get('phone');
+ }
+ get email() {
+   return this.myForm.get('email');
+ }
+ get message() {
+   return this.myForm.get('message');
+ }
 }
