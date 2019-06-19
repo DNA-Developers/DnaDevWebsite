@@ -48,8 +48,15 @@ hr {
   color: #006D95;
   font-size: 1.2rem;
 }
-.social-icons a:hover{
+ a:hover{
   color:#98CC00 !important;
+}
+
+
+@media(min-width:570px) and (max-width: 791px){
+  #social-icons{
+    display: none !important;
+  }
 }
 
 @media(max-width: 790px) {
@@ -82,6 +89,10 @@ hr {
     color: #fff;
     margin-top: .5rem;
   }
+  a,i{
+    display: block;
+  }
+  
 }
 
 @media(max-width: 768px) {
@@ -105,3 +116,4 @@ hr {
    padding-top: .2rem;
   }
 }
+
