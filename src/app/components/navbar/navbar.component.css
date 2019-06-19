@@ -1,0 +1,43 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+#container {
+    height: 13vh;
+    background:rgba(0, 0, 0, 0.5);
+}
+
+#logo {
+    width: 120px;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#right a {
+    padding-left: 1.5rem;
+    font-size: 1.1rem;
+    color: #99cd00;
+}
+
+#right a:hover {
+    text-decoration: none;
+    color: #5682ac !important;
+}
+
+i {
+    color: white;
+}
+
+#menu {
+    width: 30px;
+    color: white !important;
+}
+
+a:hover{
+    cursor: pointer;
+}
