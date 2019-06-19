@@ -3,6 +3,7 @@
 }
 
 #container {
+    height: 13vh;
    position: relative;
     background:rgba(0, 0, 0, 0.5);
 }
@@ -35,6 +36,7 @@ i {
 
 #menu {
     width: 30px;
+    color: white !important;
     color: white;
 }
 
