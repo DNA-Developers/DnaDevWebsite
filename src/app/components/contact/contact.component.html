@@ -1,6 +1,6 @@
 <div id="container">
   <mat-card id="background">
-    <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)" action="POST" data-netlify="true">
+    <form name="contact" [formGroup]="myForm"  data-netlify-recaptcha="true" (ngSubmit)="onSubmit(myForm)" action="POST" data-netlify="true">
       <div class="input">
         <label for="name">Full Name</label><br>
         <input type="text" name="name" id="name" placeholder=" John Doe" formControlName="name">
@@ -37,6 +37,7 @@
             enter at least 5 characters</small>
         </div>
       </div>
+      <div data-netlify-recaptcha="true"></div>
       <button mat-raised-button type="submit" id="submitBut" [disabled]="myForm.invalid">Submit</button>
     </form>
   </mat-card>
