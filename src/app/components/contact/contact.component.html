@@ -1,6 +1,6 @@
 <div id="container">
   <mat-card id="background">
-    <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">
+    <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)" action="POST" data-netlify="true">
       <div class="input">
         <label for="name">Full Name</label><br>
         <input type="text" name="name" id="name" placeholder=" John Doe" formControlName="name">
@@ -30,7 +30,7 @@
       </div>
       <div class="input">
         <label for="message">Message</label><br>
-        <textarea rows="5" id="message" placeholder=" Your Message..." formControlName="message"></textarea>
+        <textarea rows="5" name="message" id="message" placeholder=" Your Message..." formControlName="message"></textarea>
         <div>
           <small class="error"
             *ngIf="(myForm.get('message').touched || myForm.get('message').dirty) && myForm.get('message').errors?.minlength">Please
