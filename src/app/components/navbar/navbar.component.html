@@ -1,13 +1,15 @@
 <div id="container">
   <div class="container">
     <div id="left">
-      <img id="logo" [src]='photo' alt="logo">
+      <a>
+      <img  routerLink="" id="logo" [src]='photo' alt="logo">
+    </a>
     </div>
     <div id="right">
       <div *ngIf="hide(); else nav">
-        <a href="#" (click)="height()">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <a routerLink="" (click)="height()">Home</a>
+        <a routerLink="about">About</a>
+        <a routerLink="contact">Contact</a>
       </div>
       <ng-template #nav>
             <a *ngIf="show; else hideElem" (click)="toggle()">
@@ -15,16 +17,15 @@
             </a>
             <ng-template #hideElem>
               <a (click)="toggle()">
-                X
                 <img id="close" [src]='close' alt="close">
                 <div id="dropdown">
                   <div id="items">
                   <hr>
-                  <a href="#">Home</a>
+                  <a routerLink="">Home</a>
                   <hr>
-                  <a href="#">About</a>
+                  <a routerLink="about">About</a>
                   <hr>
-                  <a href="#">Contact</a>
+                  <a routerLink="contact">Contact</a>
                   <hr>
                   </div>
                 </div>
