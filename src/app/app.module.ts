@@ -10,7 +10,11 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
-import {MatIconModule} from '@angular/material/icon';
+import {MatIconModule, MatCardModule} from '@angular/material';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
+
+
 
 
 @NgModule({
@@ -27,7 +31,10 @@ import {MatIconModule} from '@angular/material/icon';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    MatCardModule,
+    FormsModule,
+    ReactiveFormsModule
 
   ],
   providers: [],
