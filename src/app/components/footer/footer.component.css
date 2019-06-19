@@ -43,13 +43,16 @@ hr {
   margin-left: 0.4rem;
   font-size: .9rem;
   color: white;
-
+}
+.icons {
+  color: #006D95;
+  font-size: 1.2rem;
+}
+.social-icons a:hover{
+  color:#98CC00 !important;
 }
 
 @media(max-width: 790px) {
-  #footer {
-    height: 85vh;
-  }
 
   #background {
     height: 90%;
@@ -88,10 +91,6 @@ hr {
     font-size: .7rem;
     font-weight: 300;
     color: #fff;
-    text-align: center;
-    font-size: .4rem;
-    font-weight: 300;
-    color: #fff;
   }
   #footer {
     display: flex;
@@ -99,5 +98,10 @@ hr {
     align-items: center;
     text-align: center;
     justify-content: center;
+  }
+  .soc {
+   display: block;
+   padding-bottom: .4rem;
+   padding-top: .2rem;
   }
 }
