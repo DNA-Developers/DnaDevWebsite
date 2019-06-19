@@ -41,7 +41,13 @@ hr {
   margin-left: 0.4rem;
   font-size: .9rem;
   color: white;
-
+}
+.icons {
+  color: #006D95;
+  font-size: 1.2rem;
+}
+.social-icons a:hover{
+  color:#98CC00 !important;
 }
 
 @media(max-width: 790px) {
@@ -96,5 +102,7 @@ hr {
   }
   .soc {
    display: block;
+   padding-bottom: .4rem;
+   padding-top: .2rem;
   }
 }
