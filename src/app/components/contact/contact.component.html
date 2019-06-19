@@ -1,6 +1,6 @@
 <div id="container">
   <mat-card id="background">
-    <form name="contact" [formGroup]="myForm"  data-netlify-recaptcha="true"  (ngSubmit)="onSubmit(myForm)" method="POST" data-netlify="true">
+    <form name="contact" [formGroup]="myForm"  data-netlify-recaptcha="true" netlify  method="POST" data-netlify="true">
       <div class="input">
         <label for="name">Full Name</label><br>
         <input type="text" name="name" id="name" placeholder=" John Doe" formControlName="name">
