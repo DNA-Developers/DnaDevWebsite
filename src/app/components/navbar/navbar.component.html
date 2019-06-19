@@ -16,6 +16,18 @@
             <ng-template #hideElem>
               <a (click)="toggle()">
                 X
+                <img id="close" [src]='close' alt="close">
+                <div id="dropdown">
+                  <div id="items">
+                  <hr>
+                  <a href="#">Home</a>
+                  <hr>
+                  <a href="#">About</a>
+                  <hr>
+                  <a href="#">Contact</a>
+                  <hr>
+                  </div>
+                </div>
               </a>
             </ng-template>
       </ng-template>
