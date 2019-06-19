@@ -86,10 +86,6 @@ hr {
     font-size: .7rem;
     font-weight: 300;
     color: #fff;
-    text-align: center;
-    font-size: .4rem;
-    font-weight: 300;
-    color: #fff;
   }
   #footer {
     display: flex;
@@ -97,5 +93,8 @@ hr {
     align-items: center;
     text-align: center;
     justify-content: center;
+  }
+  .soc {
+   display: block;
   }
 }
