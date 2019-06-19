@@ -13,6 +13,9 @@ import { ContactComponent } from './components/contact/contact.component';
 import {MatIconModule, MatCardModule} from '@angular/material';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
+import { NotFoundComponent } from './components/not-found/not-found.component';
+import { RouterModule} from '@angular/router';
+import {AppRoutingModule} from './app-routing/app-routing.module';
 
 
 
@@ -26,7 +29,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     FooterComponent,
     HomeComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
@@ -34,8 +38,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatIconModule,
     MatCardModule,
     FormsModule,
-    ReactiveFormsModule
-
+    ReactiveFormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
