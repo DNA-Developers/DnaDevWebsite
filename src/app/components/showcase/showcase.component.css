@@ -30,7 +30,7 @@ h1 {
     font-weight: 300;
     font-size: 2.3rem;
 }
-button{
+a{
     color: #ffffff;
     background-color: #99cd00;
     border-radius: 30px;
@@ -40,9 +40,10 @@ button{
     margin-top: 1.5rem !important;
     border: none;
     outline: none;
+    text-decoration: none;
 }
 
-button:hover {
+a:hover {
     background: #5B2A86;
 }
 
@@ -50,10 +51,9 @@ button:hover {
     .container{
         text-align: center;
     }
-    button{
+    a{
         font-size: .9rem;
         padding: 10px 15px;
-
     }
     h1 {
         font-weight: 300;
