@@ -20,7 +20,7 @@ export class ContactComponent implements OnInit {
     });
    
   }
-  onSubmit(){
-    this.myForm.value;
-  }
+  // onSubmit(){
+  //   this.myForm.value;
+  // }
 }
